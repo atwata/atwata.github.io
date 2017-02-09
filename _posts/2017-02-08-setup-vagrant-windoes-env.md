@@ -17,7 +17,7 @@ Node.jsの公式ページにWindows用の.msiや.exeはあるのですがこれ�
 
 解決策は色々ありますが、今回は仮想環境でVagrantを使用します。
 
- ## VirtualBoxのインストール
+## VirtualBoxのインストール
 
 <https://www.virtualbox.org/wiki/Downloads>
 
