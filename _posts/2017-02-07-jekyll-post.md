@@ -1,6 +1,8 @@
 ---
 layout: post
 title: jekyllで記事を投稿する方法
+categories: tool
+tags: jekyll
 ---
 
 

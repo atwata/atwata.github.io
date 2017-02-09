@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 開始月と終了月をインプットとしてその間の月のリストを取得したい
+categories: app
+tags: algorithm
 ---
 
 ## やりたいこと

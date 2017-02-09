@@ -1,6 +1,8 @@
 ---
 layout: post
 title: jekyllでサイト（ブログ）を作成し、github pagesで管理する方法
+categories: tool
+tags: jekyll github
 ---
 
 githubにgithub.ioのリポジトリを作成する。
