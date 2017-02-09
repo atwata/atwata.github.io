@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: jekyllで記事を投稿する方法
 ---
 
@@ -16,7 +16,7 @@ YEAR-MONTH-DAY-title.MARKUP
 
 ````
 ```
-$ cat _posts/2017-02-07-hello.md 
+$ cat _posts/2017-02-07-hello.md
 ---
 layout: default
 title: Hello world
@@ -40,8 +40,3 @@ githubにpushする。
 ![20170207_github_repos]({{site.baseurl}}/images/20170207_site_index.png)
 
 ![20170207_github_repos]({{site.baseurl}}/images/20170207_site_page.png)
-
-
-
-
-

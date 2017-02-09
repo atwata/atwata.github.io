@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: jekyllでサイト（ブログ）を作成し、github pagesで管理する方法
 ---
 
@@ -27,11 +27,11 @@ blogという名前でインストールします。
 ```
 $ cd /Users/aw/root/
 $ jekyll new blog
-Running bundle install in /Users/aw/root/blog... 
+Running bundle install in /Users/aw/root/blog...
   Bundler: The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run `bundle lock --add-platform mingw, mswin, x64_mingw, jruby`.
   〜略〜
   Bundler: Use `bundle show [gemname]` to see where a bundled gem is installed.
-New jekyll site installed in /Users/aw/root/blog. 
+New jekyll site installed in /Users/aw/root/blog.
 $ cd blog/
 $ ll
 total 48
@@ -55,7 +55,7 @@ Configuration file: /Users/aw/root/blog/_config.yml
             Source: /Users/aw/root/blog
        Destination: /Users/aw/root/blog/_site
  Incremental build: disabled. Enable with --incremental
-      Generating... 
+      Generating...
                     done in 0.462 seconds.
  Auto-regeneration: enabled for '/Users/aw/root/blog'
 Configuration file: /Users/aw/root/blog/_config.yml
@@ -66,7 +66,7 @@ Configuration file: /Users/aw/root/blog/_config.yml
 github pagesにpushする。
 
 ```
-awmbp:blog aw$ 
+awmbp:blog aw$
 awmbp:blog aw$ git init
 awmbp:blog aw$ git add .
 awmbp:blog aw$ git commit -a
@@ -77,7 +77,3 @@ awmbp:blog aw$ git push origin master
 下記URLにアクセスすると初期ページが表示される。
 
 https://atwata.github.io
-
-
-
-
