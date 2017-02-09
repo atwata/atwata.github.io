@@ -30,20 +30,20 @@ DNSリゾルバがやっていることは2つ。
 
 リクエストパラメータを受け取って、Localeオブジェクトを返す。
 
-http://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/servlet/LocaleResolver.html
+<http://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/servlet/LocaleResolver.html>
 
 
 ### ThemeResolver
 
 リクエストパラメータを受け取って、theme nameを返す
 
-http://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/servlet/ThemeResolver.html
+<http://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/servlet/ThemeResolver.html>
 
 ### ViewResolver
 
 ビューの論理名からビューのインスタンスを探す
 
-http://d.hatena.ne.jp/ryoasai/20101121/1290317629
+<http://d.hatena.ne.jp/ryoasai/20101121/1290317629>
 
 上記3つのやっていることを見ることでなんとなくResolverのイメージができてきました。
 
@@ -55,7 +55,7 @@ if文（つまりロジック）を抜き出して、インターフェースを
 
 また↓によると
 
-http://qiita.com/KeithYokoma/items/ee21fec6a3ebb5d1e9a8
+<http://qiita.com/KeithYokoma/items/ee21fec6a3ebb5d1e9a8>
 
 「ユーザの環境に応じた処理のルーティングをするレイヤ」とのこと
 

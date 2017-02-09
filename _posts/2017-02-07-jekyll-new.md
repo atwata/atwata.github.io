@@ -78,4 +78,4 @@ awmbp:blog aw$ git push origin master
 
 下記URLにアクセスすると初期ページが表示される。
 
-https://atwata.github.io
+<https://atwata.github.io>
