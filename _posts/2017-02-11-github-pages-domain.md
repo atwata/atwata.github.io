@@ -14,7 +14,9 @@ https://atwata.github.io
 
 これを下記の独自ドメインでアクセスできるようにしたい。
 
-https://blog.atwata.com
+http://blog.atwata.com
+
+（独自ドメインにするとsslではなくなってしまうので注意）
 
 やるべきことは3つ。
 
@@ -41,7 +43,7 @@ IPアドレスの情報については下記のサイトに記載があります
 
 ドメインNavi > DNS関連機能の設定 > DNSレコード設定を利用する
 
-![20170211 domain1]({{site.baseurl}}/images/20170211 domain1.png)
+![20170211 domain1]({{site.baseurl}}/images/20170211_domain1.png)
 
 Aレコードが追加されている状態
 
