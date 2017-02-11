@@ -1,14 +1,15 @@
 ---
 layout: post
-title: jekyllでGithub.io(Github Pages)作成したサイトに独自ドメインを設定する方法
+title: Github.io(Github Pages)に作成したサイトで独自ドメインを設定する方法
 categories: blog
-tags: github
+tags: github domain
 ---
 
-Github Pagesで管理しているサイトで独自ドメインを使用したい。
+Github Pagesで管理しているサイトで独自ドメインを使用したいです。
+（まさにこのサイトがそれです）
 
-デフォルトだとgithub.ioがドメインとなる。
-私のアカウントだと下記のようになる。
+Github Pagesではデフォルトだとgithub.ioがドメインとなります。
+私のアカウントだと下記のようになリます。
 
 https://atwata.github.io
 
@@ -59,4 +60,4 @@ $ cat CNAME
 blog.atwata.com
 ```
 
-独自ドメインの設定は以上になりmす。簡単ですね。
+独自ドメインの設定は以上になります。簡単ですね。
