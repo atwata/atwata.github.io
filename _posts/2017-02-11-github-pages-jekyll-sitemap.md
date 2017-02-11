@@ -5,6 +5,8 @@ categories: blog
 tags: github sitemap
 ---
 
+## Github Pagesでsitemap.xmlを生成する方法
+
 このサイトがそうですが、Github Pagesで管理しているJekyllで作成したサイト
 のsitemap.xmlを作成する方法について説明します。
 
@@ -22,3 +24,14 @@ gems:
 公式のヘルプ
 
 <https://help.github.com/articles/sitemaps-for-github-pages/>
+
+## 生成されているか確認する
+
+[自分のサイトのURL]/sitemap.xml
+にアクセスしてみる。
+
+<http://blog.atwata.com/sitemap.xml>
+
+こんな感じの画面が表示されればOKです。
+
+![20170211 domain1]({{site.baseurl}}/images/20170211_sitemap.png)
