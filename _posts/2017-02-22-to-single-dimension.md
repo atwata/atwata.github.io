@@ -59,23 +59,23 @@ function toSingleDimension(array $multiArray)
 
     for ($iterator; $iterator->valid(); $iterator->next()) {
         $key = $iterator->key();
-        $value = $iterator->current();
+        $current = $iterator->current();
         $depth = $iterator->getDepth();
         $keymap[$depth] = $key;
 
-        if (is_array($value)) {
+        if (is_array($current)) {
             continue;
         }
 
         if ($depth > 0) {
-            $ancestorKeys = array();
-            foreach (range(0, $depth) as $depthKey) {
-                $ancestorKeys[] = $keymap[$depthKey];
+            $keyList = array();
+            for ($i = 0; $i <= $depth; $i++) {
+                $keyList[] = $keymap[$i];
             }
-            $key = implode('.', $ancestorKeys);
+            $key = implode('.', $keyList);
         }
 
-        $singleArray[$key] = $value;
+        $singleArray[$key] = $current;
     }
 
     return $singleArray;
@@ -86,6 +86,7 @@ $data = array('parent' => array('childA' => 'A', 'childB' => 'B', 'childC' => ar
 
 print_r($data);
 print_r(toSingleDimension($data));
+
 ```
 
 ## やっていること
@@ -97,7 +98,7 @@ print_r(toSingleDimension($data));
 
 RecursiveIteratorIteratorの公式ドキュメント
 
-[http://php.net/manual/ja/class.recursiveiteratoriterator.php]
+<http://php.net/manual/ja/class.recursiveiteratoriterator.php>
 
 コンストラクタのオプション
 
