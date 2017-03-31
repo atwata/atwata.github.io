@@ -65,6 +65,13 @@ Configuration file: /Users/aw/root/blog/_config.yml
   Server running... press ctrl-c to stop.
 ```
 
+- 参考
+
+|オプション|内容|
+| `--watch`|変更を監視し、自動的に再作成を行う|
+| `--host=0.0.0.0`|外部からのアクセスを受けつける（指定しないとlocalhostでのアクセスのみ。）|
+
+
 github pagesにpushする。
 
 ```
