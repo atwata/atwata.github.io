@@ -1,6 +1,6 @@
 ---
 layout: post
-title: netbeans 備忘録
+title: PHP netbeans 備忘録
 categories: tool
 tags: php netbeans
 ---
