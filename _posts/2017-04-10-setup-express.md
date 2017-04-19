@@ -37,10 +37,12 @@ cd . && npm install
 DEBUG=xxx_project:* npm start
 ```
 
-#### 違うポートで起動したい場合は環境変数PORTに番号を指定してからnpm startする
+#### 違うポートで起動したい場合
+
+環境変数PORTに番号を指定してからnpm startする
 
 ```
-exporet PORT=3001
+export PORT=3001
 ```
 
 ### ブラウザでアクセスしてみる
