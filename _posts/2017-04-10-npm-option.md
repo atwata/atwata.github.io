@@ -9,6 +9,11 @@ tags: node.js npm
 
 パッケージをインストールする
 
+`npm install`だけだと、カレントディレクトリにあるpackage.jsonを読みこみ、
+そこに指定されているパッケージをインストールする。
+
+phpでいうcomposerと同じ。
+
 ```
 -g
 ```
