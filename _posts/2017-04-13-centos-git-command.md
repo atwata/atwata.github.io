@@ -11,31 +11,63 @@ tags: git
 git clone https://github.com/[username]/[repositoryname]
 ```
 
-## 開発中によく使うコマンド
+## ファイル修正からリモートにpushまで
 
-ステータス確認
+### ステータス確認
 
 ```
 git status
 ```
 
-変更をまとめてadd
+### コミット前の差分確認
+
+```
+-- 行単位で差分を表示
+git diff
+```
+
+```
+-- 単語単位で色分けして差分を表示（変更内容によってはこちらのほうが見やすい）
+git diff --color-words
+```
+
+
+### 変更をまとめてadd
 
 ```
 git add .
 ```
 
-コメントを指定してcommit
+### コメントを指定してcommit
 
 ```
 git commit -m "add express files"
 ```
 
-masterにpush
+### masterにpush
 
 ```
 git push origin master
 ```
+
+## ブランチ関連
+
+### ブランチの作成
+
+今チェックアウトしているブランチを元に作成される
+
+```
+git branch <branch_name>
+```
+
+
+
+### 不要なローカルブランチを削除
+
+```
+git branch -d <branch_name>
+```
+
 
 ## push時にユーザー名の入力を省略したい
 
