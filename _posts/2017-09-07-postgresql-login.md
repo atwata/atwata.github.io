@@ -9,7 +9,7 @@ tags: postgresql
 ## 下記のエラーが出てログインできない場合の対処法
 
 ```
-psql: FATAL:  Ident authentication failed for user "postgres"
+psql: FATAL:  Ident authentication failed for user "postgres";
 ```
 
 通常イメージするユーザ名とパスワードでログインできるようにする。
