@@ -1,6 +1,6 @@
 ---
 layout: post
-title: postgresqlにログインできない（psql: FATAL:  Ident authentication failed for user "postgres"エラー）
+title: postgresqlにログインできない（Ident authentication failedエラー）
 categories: db
 tags: postgresql
 ---
