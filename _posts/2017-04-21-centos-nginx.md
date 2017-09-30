@@ -50,9 +50,11 @@ sudo  firewall-cmd --permanent --zone=public --add-service=http
 sudo  firewall-cmd --reload
 ```
 
+ブラウザでアクセスして
 
+Welcome to nginx!
 
-
+と表示されればOK!
 
 
 
