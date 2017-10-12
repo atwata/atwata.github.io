@@ -5,6 +5,8 @@ categories: tool
 tags: git
 ---
 
+# ローカル環境にgitリモートブランチを作る
+
 個人開発のちょっとしたツールやプログラムのソース管理について。
 
 - githubを使ってもよいのだが、公開したくないタイプのソースである
@@ -69,4 +71,30 @@ $ ls
 ```
 
 これであとは通常のgithubに対してgit操作するようにソースの管理を行える
+
+# 既存のローカルディレクトリを管理対象にする
+
+ついでにこのリポジトリに対してすでに存在するディレクトリをgit管理対象とした上で、pushする方法
+
+## 既存のファイルがあるディレクトリに移動して初期化、リモートリポジトリ追加
+
+```
+cd /path/to/hoge/
+git init
+git remote add origin localhost:/path/to/myapp.git
+```
+
+git fetchでエラーが出なければ正しくリモートリポジトリが設定されている
+
+```
+git fetch
+```
+
+## 既存のファイルを追加してコミット、プッシュ
+
+```
+git add .
+git commit
+git push origin master
+```
 
