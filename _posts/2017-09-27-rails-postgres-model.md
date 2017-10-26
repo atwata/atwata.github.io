@@ -61,7 +61,7 @@ end
 これをしないとPengindMigrationErrorが発生する
 
 ```
-rake db:migration
+rake db:migrate
 ```
 
 ## コントローラ作成
