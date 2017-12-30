@@ -20,6 +20,17 @@ $ rbenv --version
 rbenv 1.1.1-6-g2d7cefe
 ```
 
+###  zshの場合は.bash_profileではなく.zshrcに下記を追記
+
+```
+export PATH="$PATH:$HOME/.rbenv/bin"
+eval "$(rbenv init - zsh)"
+```
+
+### rbenvのバージョンが上がった時
+
+git cloneしたパスに移動し、git pullすればOK。
+
 ## rubyのインストール
 
 
