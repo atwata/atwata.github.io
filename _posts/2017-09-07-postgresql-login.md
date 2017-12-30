@@ -27,7 +27,7 @@ $ psql
 ```
 
 ```
-postgres=# alter role postgres with password 'postgres'
+postgres=# alter role postgres with password 'postgres';
 ```
 
 ### ログイン周りの設定をきちんとする
