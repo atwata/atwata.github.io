@@ -30,10 +30,16 @@ postgresql-setup initdb
 
 /var/lib/pgsql/dataに設定ファイルが作成される。
 
+## 自動起動設定
+
+```
+systemctl enable postgresql.service
+```
+
 ## postgresql起動
 
 ```
-service postgresql start
+systemctl start postgresql.service
 ```
 
 ##  postgresqlにログイン
