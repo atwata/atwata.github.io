@@ -14,6 +14,8 @@ tags: php netbeans
 |フォーマット整形|Alt + Shift + F||
 |小文字変換|Ctrl + u 押下後に l|(lower)|
 |大文字変換|Ctrl + u 押下後に u|(upper)|
+|折りたたみを縮小（折りたたむ）|Ctrl + -||
+|折りたたみを展開（折りたたまない）|Ctrl + +|プラスなのでややこしいがCtrlを押しながら+|
 
 ## netbeans設定・機能
 
